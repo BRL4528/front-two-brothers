@@ -47,22 +47,22 @@ function Header() {
           <div className="menu-section">
             <ul>
               <li>
-                <a href="#inicio" onClick={() => handleToggle([])}>
+                <a href="#home" onClick={() => handleToggle([])}>
                   INÍCIO
                 </a>
               </li>
               <li>
-                <a href="#sobre" onClick={() => handleToggle([])}>
+                <a href="#about" onClick={() => handleToggle([])}>
                   SOBRE
                 </a>
               </li>
               <li>
-                <a href="#servicos" onClick={() => handleToggle([])}>
+                <a href="#services" onClick={() => handleToggle([])}>
                   SERVIÇOS
                 </a>
               </li>
               <li>
-                <a href="#contatos" onClick={() => handleToggle([])}>
+                <a href="#contacts" onClick={() => handleToggle([])}>
                   CONTATOS
                 </a>
               </li>

@@ -44,7 +44,7 @@ function Contact() {
           </p>
         </Information>
         <div className="row">
-          <strong className="title" id="contatos">
+          <strong className="title" id="contacts">
             Você tem alguma dúvida?
           </strong>
           <strong>Sinta-se livre para nos contatar!</strong>

@@ -15,7 +15,7 @@ function Services() {
     <Wrapper>
       <Container>
         <Title>
-          <h2 id="servicos">Serviços oferecido</h2>
+          <h2 id="services">Serviços oferecido</h2>
         </Title>
         <Content className="content">
           <Grid>

@@ -18,7 +18,7 @@ function AboutClient() {
     <About>
       <Container>
         <SectionTitle>
-          <h2 id="sobre">Sobre Nós</h2>
+          <h2 id="about">Sobre Nós</h2>
         </SectionTitle>
         <Row>
           <Coll>

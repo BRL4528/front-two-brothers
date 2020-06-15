@@ -104,7 +104,7 @@ function Dashboard() {
   return (
     <>
       <Header />
-      <Intro id="inicio">
+      <Intro id="home">
         <Banner opacity={opacity} tag={tag} urlImg={teste}>
           <div />
         </Banner>
@@ -119,7 +119,7 @@ function Dashboard() {
                   Two <span>Brothers</span>
                 </h1>
                 <p> Especialistas em saude automobilistica</p>
-                <a href="#sobre">Saber Mais</a>{' '}
+                <a href="#about">Saber Mais</a>{' '}
               </Coll>
             </Row>
           </Container>
@@ -152,7 +152,7 @@ function Dashboard() {
             <strong>Two Brothers &copy;</strong>
             2020 - Todos os direitos reservados -
             <strong>
-              <a href="/adm">Acessar</a>
+              <Link to="/adm">Acessar</Link>
             </strong>
           </div>
         </span>
