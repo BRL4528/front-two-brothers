@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { FaFacebookF, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 import logo from '~/assets/logo.png';
+import shopcar from '~/assets/shopcar.png';
 
 import { Container, Content } from './styles';
 
@@ -87,6 +88,9 @@ function Header() {
           </a>
           <a href="https://api.whatsapp.com/send?phone=5567998408117">
             <FaWhatsapp size={18} />
+          </a>
+          <a href="https://www.shopcar.com.br/loja.php?loja=1616">
+            <img src={shopcar} alt="shopcar" />
           </a>
         </aside>
       </Content>

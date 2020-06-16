@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import testimonial from '~/assets/testimonial_bg.jpg';
+import testimonial from '~/assets/twobrobuy.jpg';
 
 export const Wrapper = styled.section`
   width: 100%;
@@ -46,6 +46,7 @@ export const Review = styled.div`
   ::before {
     content: '';
     position: absolute;
+    background: rgba(255, 255, 255, 0.89);
     width: 100%;
     height: 100%;
     top: 0;
