@@ -46,11 +46,12 @@ export const Review = styled.div`
   ::before {
     content: '';
     position: absolute;
-    background: rgba(255, 255, 255, 0.89);
+    background: rgba(51, 51, 51, 0.95);
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
+    border-radius: 4px;
   }
 
   & + div {
@@ -70,7 +71,7 @@ export const Review = styled.div`
 
       p {
         position: relative;
-        color: #333;
+        color: #eee;
         font-size: 16px;
       }
 
@@ -79,9 +80,9 @@ export const Review = styled.div`
         position: absolute;
         left: calc(13% - 20px);
         top: calc(12% + 16px);
-        color: #f6d001;
+        color: #f7eb06;
         font-family: 'GillSansMT-UltraBold';
-        font-size: 40px;
+        font-size: 25px;
         transform: rotateY(180deg);
       }
     }
@@ -90,14 +91,14 @@ export const Review = styled.div`
       display: block;
       position: relative;
 
-      color: #f6d001;
+      color: #f7eb06;
       font-size: 13px;
     }
 
     p {
       position: relative;
       font-size: 12px;
-      color: #555;
+      color: #999;
     }
   }
 `;

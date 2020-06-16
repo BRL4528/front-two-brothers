@@ -19,7 +19,7 @@ function Reviews() {
                 </p>
               </div>
               <strong>Alessandro Silva</strong>
-              <p>1h atrás</p>
+              {/* <p>1h atrás</p> */}
             </span>
           </Review>
           <Review>
@@ -28,7 +28,7 @@ function Reviews() {
                 <p>Excelente serviço meu porshe ficou zero</p>
               </div>
               <strong>Alessandro Silva</strong>
-              <p>1h atrás</p>
+              {/* <p>1h atrás</p> */}
             </span>
           </Review>
           <Review>
@@ -40,7 +40,7 @@ function Reviews() {
                 </p>
               </div>
               <strong>Alessandro Silva</strong>
-              <p>1h atrás</p>
+              {/* <p>1h atrás</p> */}
             </span>
           </Review>
         </Content>
