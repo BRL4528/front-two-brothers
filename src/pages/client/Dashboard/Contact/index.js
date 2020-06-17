@@ -44,7 +44,7 @@ function Contact() {
           </p>
         </Information>
         <div className="row">
-          <strong className="title" id="contatos">
+          <strong className="title" id="contacts">
             Você tem alguma dúvida?
           </strong>
           <strong>Sinta-se livre para nos contatar!</strong>
@@ -57,7 +57,7 @@ function Contact() {
         </div>
         <Form onSubmit={handleSubmit} schema={schema}>
           <div>
-            <Input name="name" placeholder="Nome" />
+            <Input id="inputName" name="name" placeholder="Nome" />
           </div>
           <div>
             <Input name="email" type="email" placeholder="E-mail" />

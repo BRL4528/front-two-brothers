@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import { FaFacebookF, FaInstagram, FaWhatsapp } from 'react-icons/fa';
 import logo from '~/assets/logo.png';
+import shopcar from '~/assets/shopcar.png';
 
 import { Container, Content } from './styles';
 
@@ -47,22 +48,22 @@ function Header() {
           <div className="menu-section">
             <ul>
               <li>
-                <a href="#inicio" onClick={() => handleToggle([])}>
+                <a href="#home" onClick={() => handleToggle([])}>
                   INÍCIO
                 </a>
               </li>
               <li>
-                <a href="#sobre" onClick={() => handleToggle([])}>
+                <a href="#about" onClick={() => handleToggle([])}>
                   SOBRE
                 </a>
               </li>
               <li>
-                <a href="#servicos" onClick={() => handleToggle([])}>
+                <a href="#services" onClick={() => handleToggle([])}>
                   SERVIÇOS
                 </a>
               </li>
               <li>
-                <a href="#contatos" onClick={() => handleToggle([])}>
+                <a href="#contacts" onClick={() => handleToggle([])}>
                   CONTATOS
                 </a>
               </li>
@@ -87,6 +88,9 @@ function Header() {
           </a>
           <a href="https://api.whatsapp.com/send?phone=5567998408117">
             <FaWhatsapp size={18} />
+          </a>
+          <a href="https://www.shopcar.com.br/loja.php?loja=1616">
+            <img src={shopcar} alt="shopcar" />
           </a>
         </aside>
       </Content>

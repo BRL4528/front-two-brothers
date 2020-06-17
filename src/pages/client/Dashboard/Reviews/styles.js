@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import testimonial from '~/assets/testimonial_bg.jpg';
+import testimonial from '~/assets/twobrobuy.jpg';
 
 export const Wrapper = styled.section`
   width: 100%;
@@ -46,10 +46,12 @@ export const Review = styled.div`
   ::before {
     content: '';
     position: absolute;
+    background: rgba(51, 51, 51, 0.95);
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
+    border-radius: 4px;
   }
 
   & + div {
@@ -69,7 +71,7 @@ export const Review = styled.div`
 
       p {
         position: relative;
-        color: #333;
+        color: #eee;
         font-size: 16px;
       }
 
@@ -78,8 +80,8 @@ export const Review = styled.div`
         position: absolute;
         left: calc(13% - 20px);
         top: calc(12% + 16px);
-        color: #f6d001;
-        font-family: 'GillSansMT-UltraBold';
+        color: #f7eb06;
+        font-family: 'Times New Roman', Times, serif;
         font-size: 40px;
         transform: rotateY(180deg);
       }
@@ -89,14 +91,14 @@ export const Review = styled.div`
       display: block;
       position: relative;
 
-      color: #f6d001;
+      color: #f7eb06;
       font-size: 13px;
     }
 
     p {
       position: relative;
       font-size: 12px;
-      color: #555;
+      color: #999;
     }
   }
 `;

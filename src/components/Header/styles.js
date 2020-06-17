@@ -81,7 +81,7 @@ export const Content = styled.header`
     align-items: center;
 
     a {
-      margin: 0 15px;
+      margin: 0 10px;
 
       svg {
         color: #eee;
@@ -89,6 +89,15 @@ export const Content = styled.header`
 
         :hover {
           color: #f7eb06;
+        }
+      }
+
+      img {
+        width: 78px;
+        height: 22px;
+
+        :hover {
+          opacity: 0.5;
         }
       }
     }
