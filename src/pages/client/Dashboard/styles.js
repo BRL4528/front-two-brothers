@@ -220,8 +220,13 @@ export const Footer = styled.footer`
     margin-right: 5px;
 
     a {
-      color: #333;
+      color: #666;
       margin-left: 5px;
+      transition: color 0.5s;
+
+      :hover {
+        color: #333;
+      }
     }
   }
 `;

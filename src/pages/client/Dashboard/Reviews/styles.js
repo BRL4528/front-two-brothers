@@ -81,8 +81,8 @@ export const Review = styled.div`
         left: calc(13% - 20px);
         top: calc(12% + 16px);
         color: #f7eb06;
-        font-family: 'GillSansMT-UltraBold';
-        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 40px;
         transform: rotateY(180deg);
       }
     }

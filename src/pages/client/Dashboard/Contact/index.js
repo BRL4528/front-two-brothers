@@ -57,7 +57,7 @@ function Contact() {
         </div>
         <Form onSubmit={handleSubmit} schema={schema}>
           <div>
-            <Input name="name" placeholder="Nome" />
+            <Input id="inputName" name="name" placeholder="Nome" />
           </div>
           <div>
             <Input name="email" type="email" placeholder="E-mail" />
